@@ -1,0 +1,13 @@
+#This is a program using a while statement. It that tells me how many sandwiches I can make, while telling me how many pieces of bread I have remaining!
+
+sandwich = 0
+bread = 9
+jelly = 7
+pb = 8
+while bread >= 2:
+	sandwich = sandwich + 1
+	bread = bread - 2
+	print "making sandwich #{0}, I have {1} pieces of bread left".format(sandwich, bread)
+	
+else: 
+	print "You made a total of {0} sandwiches, yo.".format(sandwich)
